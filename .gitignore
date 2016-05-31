@@ -1,0 +1,15 @@
+SOEDU/SOEDU/obj/
+SOEDU/SOEDU.API/obj/
+SOEDU/SOEDU.Common/obj/
+SOEDU/SOEDU.Entities/obj/
+SOEDU/SOEDU.Repository/obj/
+SOEDU/SOEDU.Service/obj/
+SOEDU/SOEDU.Tests/obj/
+SOEDU/SOEDU/bin/
+SOEDU/SOEDU.API/bin/
+SOEDU/SOEDU.Common/bin/
+SOEDU/SOEDU.Entities/bin/
+SOEDU/SOEDU.Repository/bin/
+SOEDU/SOEDU.Service/bin/
+SOEDU/SOEDU.Tests/bin/
+SOEDU/SOEDU.v12
