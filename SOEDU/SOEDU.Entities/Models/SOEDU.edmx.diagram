@@ -4,52 +4,53 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="510c47705c9c4997a876764f63ed9802" Name="Diagram1" ZoomLevel="91">
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Assess" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Attach" Width="1.5" PointX="7.5" PointY="16.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Course" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_CourseCategory" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Lesson" Width="1.5" PointX="5.25" PointY="17.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Section" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_StudentCourse" Width="1.5" PointX="6" PointY="13.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_StudentTest" Width="1.5" PointX="9.75" PointY="20.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_StudentTestSection" Width="1.5" PointX="7.5" PointY="23.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Target" Width="1.5" PointX="9" PointY="12.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TeacherCourse" Width="1.5" PointX="3" PointY="23.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Test" Width="1.5" PointX="7.5" PointY="20.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestLesson" Width="1.5" PointX="7.5" PointY="29.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestLessonAnswer" Width="1.5" PointX="9.75" PointY="17.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestLessonQuestion" Width="1.5" PointX="12" PointY="17.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestSection" Width="1.5" PointX="5.25" PointY="23.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestSectionAnswer" Width="1.5" PointX="7.5" PointY="26.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_TestSectionQuestion" Width="1.5" PointX="9.75" PointY="26.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SOEDUModel.Sys_Users" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Assess_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Attach_Sys_Lesson" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_CourseCategory_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Section_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentCourse_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Target_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TeacherCourse_Sys_Course" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_CourseCategory_Sys_CourseCategory" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Lesson_Sys_Lesson1" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Lesson_Sys_Section" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Test_Sys_Lesson" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestSection_Sys_Section" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentCourse_Sys_Users" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentTest_Sys_Test" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentTest_Sys_Users" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentTest_TestLesson" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentTestSection_Sys_TestSection" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_StudentTestSection_Sys_Users" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Target_Sys_Target" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_Target_Sys_Users" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TeacherCourse_Sys_Users" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestLessonAnswer_Sys_Test" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestLessonAnswer_TestLesson" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestLessonQuestion_Sys_TestLessonAnswer" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestSectionAnswer_Sys_TestSection" ManuallyRouted="false" />
-        <AssociationConnector Association="SOEDUModel.FK_Sys_TestSectionQuestion_Sys_TestSectionAnswer" ManuallyRouted="false" />
+      <Diagram DiagramId="6ab57e90b7ad43fb80a07465d22aa274" Name="Diagram1">
+        <EntityTypeShape EntityType="SOEDU.Sys_Assess" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Attach" Width="1.5" PointX="7.5" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Course" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_CourseCategory" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Lesson" Width="1.5" PointX="5.25" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Section" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_StudentCourse" Width="1.5" PointX="6" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_StudentTest" Width="1.5" PointX="9.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_StudentTestSection" Width="1.5" PointX="7.5" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Target" Width="1.5" PointX="9" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TeacherCourse" Width="1.5" PointX="3" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Test" Width="1.5" PointX="7.5" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestLesson" Width="1.5" PointX="7.5" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestLessonAnswer" Width="1.5" PointX="9.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestLessonQuestion" Width="1.5" PointX="12" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestSection" Width="1.5" PointX="5.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestSectionAnswer" Width="1.5" PointX="7.5" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_TestSectionQuestion" Width="1.5" PointX="9.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.Sys_Users" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOEDU.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Assess_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Attach_Sys_Lesson" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_CourseCategory_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Section_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentCourse_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Target_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TeacherCourse_Sys_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_CourseCategory_Sys_CourseCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Lesson_Sys_Lesson1" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Lesson_Sys_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Test_Sys_Lesson" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestSection_Sys_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentCourse_Sys_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentTest_Sys_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentTest_Sys_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentTest_TestLesson" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentTestSection_Sys_TestSection" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_StudentTestSection_Sys_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Target_Sys_Target" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_Target_Sys_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TeacherCourse_Sys_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestLessonAnswer_Sys_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestLessonAnswer_TestLesson" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestLessonQuestion_Sys_TestLessonAnswer" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestSectionAnswer_Sys_TestSection" ManuallyRouted="false" />
+        <AssociationConnector Association="SOEDU.FK_Sys_TestSectionQuestion_Sys_TestSectionAnswer" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
