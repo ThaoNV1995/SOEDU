@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{54DF56D1-AD18-434A-9EF3-1DFFE090E8FF}</ProjectGuid>
+    <ProjectGuid>{A5F2BEAF-9AE5-4C3E-B034-51A42B60571C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SOEDU.Tests</RootNamespace>
@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SOEDU\SOEDU.csproj">
-      <Project>{BC91F1A3-F5FE-481A-9B81-21EDC151FCCB}</Project>
+      <Project>{7BF8AA54-954A-4F85-AA4F-09341D1C2017}</Project>
       <Name>SOEDU</Name>
     </ProjectReference>
   </ItemGroup>

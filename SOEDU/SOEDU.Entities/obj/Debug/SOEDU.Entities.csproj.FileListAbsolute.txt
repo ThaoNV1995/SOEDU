@@ -1,0 +1,12 @@
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.dll
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.pdb
+D:\2016\VEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.dll
+D:\2016\VEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.pdb
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.dll.config
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\App_Data\SOEDU.mdf
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\App_Data\SOEDU_log.ldf
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.dll
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.xml
+D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\2016\VEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.csprojResolveAssemblyReference.cache

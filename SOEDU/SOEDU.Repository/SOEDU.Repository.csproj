@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1623C5FF-4A44-4717-B41C-D3F963D63288}</ProjectGuid>
+    <ProjectGuid>{A1F861BA-E0E5-4990-8798-A97C029BB71A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SOEDU.Repository</RootNamespace>
@@ -29,27 +29,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
-      <HintPath>..\SOEDU.Entities\bin\Debug\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\..\..\..\_SourceCodeDemo\StudyOnline\StudyOnline.Entities\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Models.SOEDU.cs">
-      <HintPath>..\SOEDU.Entities\obj\Debug\TempPE\Models.SOEDU.cs.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="SOEDU.Entities">
       <HintPath>..\SOEDU.Entities\bin\Debug\SOEDU.Entities.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web.WebPages.Razor">
-      <HintPath>..\..\..\do-an-4\StudyOnline\StudyOnline.API\bin\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

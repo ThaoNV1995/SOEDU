@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2644FB4E-FCF2-4CA2-A743-ED92BC08FF6D}</ProjectGuid>
+    <ProjectGuid>{47D3E9E1-9025-44A2-8CCE-25F95900978B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SOEDU.Service</RootNamespace>
