@@ -90,6 +90,17 @@
         <!--End Header-->
         <div class="sto-content">
             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        @RenderPage("_MenuLeft.cshtml")
+                        <div class="col-lg-6 col-md-6 col-sm-8 nopadding-xs nopadding-sm">
+                            <!--Slider-->
+                            @RenderPage("_Slider.cshtml")
+                            <!--End Slider-->
+                        </div>
+                        @RenderPage("_HotNews.cshtml")
+                    </div>
+                </div>
                 @RenderBody();
             </div>
         </div>

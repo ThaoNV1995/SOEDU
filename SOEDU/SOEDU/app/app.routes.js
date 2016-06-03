@@ -11,7 +11,7 @@ var angularWithTS;
         };
         Routes.$inject = ["$routeProvider"];
         return Routes;
-    })();
+    }());
     angularWithTS.Routes = Routes;
 })(angularWithTS || (angularWithTS = {}));
 //# sourceMappingURL=app.routes.js.map
