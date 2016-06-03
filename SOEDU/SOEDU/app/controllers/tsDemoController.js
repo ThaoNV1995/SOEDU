@@ -15,7 +15,7 @@ var angularWithTS;
             }
             TSDemoController.$inject = ["angularWithTS.Services.PlayListService"];
             return TSDemoController;
-        })();
+        }());
         controllers.TSDemoController = TSDemoController;
         angular.module("angularWithTS").controller("angularWithTS.controllers.tsDemoController", TSDemoController);
     })(controllers = angularWithTS.controllers || (angularWithTS.controllers = {}));

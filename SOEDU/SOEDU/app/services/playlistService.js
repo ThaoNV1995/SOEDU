@@ -20,7 +20,7 @@ var angularWithTS;
             }
             PlayListService.$inject = ["$http"];
             return PlayListService;
-        })();
+        }());
         Services.PlayListService = PlayListService;
         angular.module("angularWithTS").service("angularWithTS.Services.PlayListService", PlayListService);
     })(Services = angularWithTS.Services || (angularWithTS.Services = {}));

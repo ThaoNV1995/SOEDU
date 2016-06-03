@@ -10,3 +10,15 @@ D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.dll
 D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.xml
 D:\2016\VEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.xml
 D:\2016\VEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.csprojResolveAssemblyReference.cache
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\App_Data\SOEDU.mdf
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\App_Data\SOEDU_log.ldf
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.dll.config
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.dll
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\SOEDU.Entities.pdb
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.dll
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.xml
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.csprojResolveAssemblyReference.cache
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.dll
+E:\_Study\_SourceCode\_SourseGithub\SOEDU\SOEDU\SOEDU.Entities\obj\Debug\SOEDU.Entities.pdb
