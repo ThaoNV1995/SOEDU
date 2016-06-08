@@ -172,13 +172,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\app.module.js" />
-    <Content Include="app\app.routes.js" />
-    <Content Include="app\controllers\tsDemoController.js" />
-    <Content Include="app\interfaces\interfaces.js" />
-    <Content Include="app\services\playlistService.js" />
-    <Content Include="app\services\tsDemoController.js" />
-    <Content Include="app\views\playlist.html" />
     <Content Include="Content\css\Style.css" />
     <Content Include="Content\Img\20160326091646-56f5f10e5c782.png" />
     <Content Include="Content\Img\20160422100103-571993ef96aae.jpg" />
@@ -390,12 +383,6 @@
     <Content Include="Content\Plugins\font-awesome-4.5.0\scss\_rotated-flipped.scss" />
     <Content Include="Content\Plugins\font-awesome-4.5.0\scss\_stacked.scss" />
     <Content Include="Content\Plugins\font-awesome-4.5.0\scss\_variables.scss" />
-    <Content Include="app\app.module.js.map" />
-    <Content Include="app\app.routes.js.map" />
-    <Content Include="app\controllers\tsDemoController.js.map" />
-    <Content Include="app\interfaces\interfaces.js.map" />
-    <Content Include="app\services\playlistService.js.map" />
-    <Content Include="app\services\tsDemoController.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -452,11 +439,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\app.module.ts" />
-    <TypeScriptCompile Include="app\app.routes.ts" />
-    <TypeScriptCompile Include="app\controllers\tsDemoController.ts" />
-    <TypeScriptCompile Include="app\interfaces\interfaces.ts" />
-    <TypeScriptCompile Include="app\services\playlistService.ts" />
+    <TypeScriptCompile Include="app\app.ts" />
+    <TypeScriptCompile Include="app\controllers\user.controller.ts" />
+    <TypeScriptCompile Include="app\services\users.service.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
