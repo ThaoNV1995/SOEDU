@@ -78,6 +78,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SOEDU.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>SOEDU.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>SOEDU.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>SOEDU.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Sys_Assess.cs">
       <DependentUpon>SOEDU.tt</DependentUpon>
     </Compile>

@@ -118,6 +118,16 @@
                     zIndex: 2147483647 // Z-Index for the overlay
                 });
             });
+            $.ajax({
+                url: 'http://localhost:49401/api/values',
+                cache: true,
+                type: 'POST',
+                contentType: 'application/json; charset=utf-8',
+                data: "{'value':'Thao.Nguyen'}",
+                success: function (data) {
+                    console.log(data);
+                }
+            });
         });
     </script>
 </body>
