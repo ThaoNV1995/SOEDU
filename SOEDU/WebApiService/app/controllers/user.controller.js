@@ -32,7 +32,7 @@ var app;
             };
             BeersController.$inject = ['$http', 'app.services.BeerService'];
             return BeersController;
-        })();
+        }());
         angular
             .module('app')
             .controller('app.beers.BeersController', BeersController);
