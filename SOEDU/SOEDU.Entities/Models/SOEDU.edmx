@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SOEDUModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="SOEDUModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Sys_Assess">
           <Key>
             <PropertyRef Name="Assess_ID" />
@@ -662,11 +662,10 @@
             <End Role="Sys_TestSectionQuestion" EntitySet="Sys_TestSectionQuestion" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="SOEDUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="SOEDUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Sys_Assess">
           <Key>
             <PropertyRef Name="Assess_ID" />
@@ -1388,7 +1387,11 @@
           <Property Type="String" Name="IsLevel" Nullable="true" MaxLength="250" />
           <Property Type="Int32" Name="CountTarget" Nullable="true" />
           <Property Type="Int32" Name="CountStudent" Nullable="true" />
-          <Property Type="Int32" Name="IsStar" Nullable="true" />
+          <Property Type="Int32" Name="IsStar5" Nullable="true" />
+          <Property Type="Int32" Name="IsStar4" Nullable="true" />
+          <Property Type="Int32" Name="IsStar3" Nullable="true" />
+          <Property Type="Int32" Name="IsStar2" Nullable="true" />
+          <Property Type="Int32" Name="IsStar1" Nullable="true" />
         </ComplexType>
         <ComplexType Name="Sys_GetListCourseByStudent_Result">
           <Property Type="String" Name="Course_ID" Nullable="false" MaxLength="50" />
@@ -1666,7 +1669,11 @@
                 <ScalarProperty Name="IsLevel" ColumnName="IsLevel" />
                 <ScalarProperty Name="CountTarget" ColumnName="CountTarget" />
                 <ScalarProperty Name="CountStudent" ColumnName="CountStudent" />
-                <ScalarProperty Name="IsStar" ColumnName="IsStar" />
+                <ScalarProperty Name="IsStar5" ColumnName="IsStar5" />
+                <ScalarProperty Name="IsStar4" ColumnName="IsStar4" />
+                <ScalarProperty Name="IsStar3" ColumnName="IsStar3" />
+                <ScalarProperty Name="IsStar2" ColumnName="IsStar2" />
+                <ScalarProperty Name="IsStar1" ColumnName="IsStar1" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
@@ -1720,7 +1727,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />

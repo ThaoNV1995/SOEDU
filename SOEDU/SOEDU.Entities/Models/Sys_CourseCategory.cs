@@ -14,7 +14,6 @@ namespace SOEDU.Entities.Models
     
     public partial class Sys_CourseCategory
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Sys_CourseCategory()
         {
             this.Sys_CourseCategory1 = new HashSet<Sys_CourseCategory>();
@@ -28,7 +27,6 @@ namespace SOEDU.Entities.Models
         public string Parent_ID { get; set; }
     
         public virtual Sys_Course Sys_Course { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_CourseCategory> Sys_CourseCategory1 { get; set; }
         public virtual Sys_CourseCategory Sys_CourseCategory2 { get; set; }
     }

@@ -14,7 +14,6 @@ namespace SOEDU.Entities.Models
     
     public partial class Sys_Users
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Sys_Users()
         {
             this.Sys_StudentCourse = new HashSet<Sys_StudentCourse>();
@@ -38,15 +37,10 @@ namespace SOEDU.Entities.Models
         public string IsLevel { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_StudentCourse> Sys_StudentCourse { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_StudentTest> Sys_StudentTest { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_StudentTestSection> Sys_StudentTestSection { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_Target> Sys_Target { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_TeacherCourse> Sys_TeacherCourse { get; set; }
     }
 }

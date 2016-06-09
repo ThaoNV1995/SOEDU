@@ -243,7 +243,11 @@
           <ScalarProperty Name="IsLevel" ColumnName="IsLevel" />
           <ScalarProperty Name="CountTarget" ColumnName="CountTarget" />
           <ScalarProperty Name="CountStudent" ColumnName="CountStudent" />
-          <ScalarProperty Name="IsStar" ColumnName="IsStar" />
+          <ScalarProperty Name="IsStar5" ColumnName="IsStar5" />
+          <ScalarProperty Name="IsStar4" ColumnName="IsStar4" />
+          <ScalarProperty Name="IsStar3" ColumnName="IsStar3" />
+          <ScalarProperty Name="IsStar2" ColumnName="IsStar2" />
+          <ScalarProperty Name="IsStar1" ColumnName="IsStar1" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

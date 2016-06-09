@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="SOEDUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="SOEDUModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Sys_Assess">
     <Key>
       <PropertyRef Name="Assess_ID" />
@@ -721,7 +721,11 @@
     <Property Type="String" Name="IsLevel" Nullable="true" MaxLength="250" />
     <Property Type="Int32" Name="CountTarget" Nullable="true" />
     <Property Type="Int32" Name="CountStudent" Nullable="true" />
-    <Property Type="Int32" Name="IsStar" Nullable="true" />
+    <Property Type="Int32" Name="IsStar5" Nullable="true" />
+    <Property Type="Int32" Name="IsStar4" Nullable="true" />
+    <Property Type="Int32" Name="IsStar3" Nullable="true" />
+    <Property Type="Int32" Name="IsStar2" Nullable="true" />
+    <Property Type="Int32" Name="IsStar1" Nullable="true" />
   </ComplexType>
   <ComplexType Name="Sys_GetListCourseByStudent_Result">
     <Property Type="String" Name="Course_ID" Nullable="false" MaxLength="50" />

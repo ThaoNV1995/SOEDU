@@ -14,7 +14,6 @@ namespace SOEDU.Entities.Models
     
     public partial class Sys_Lesson
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Sys_Lesson()
         {
             this.Sys_Attach = new HashSet<Sys_Attach>();
@@ -33,13 +32,10 @@ namespace SOEDU.Entities.Models
         public Nullable<int> IsOrder { get; set; }
         public Nullable<bool> IsStatus { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_Attach> Sys_Attach { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_Lesson> Sys_Lesson1 { get; set; }
         public virtual Sys_Lesson Sys_Lesson2 { get; set; }
         public virtual Sys_Section Sys_Section { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_Test> Sys_Test { get; set; }
     }
 }
