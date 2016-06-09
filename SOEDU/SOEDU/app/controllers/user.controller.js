@@ -38,4 +38,4 @@ var app;
             .controller('app.beers.BeersController', BeersController);
     })(beers = app.beers || (app.beers = {}));
 })(app || (app = {}));
-//# sourceMappingURL=user.controller.js.map
+//# sourceMappingURL=User.controller.js.map

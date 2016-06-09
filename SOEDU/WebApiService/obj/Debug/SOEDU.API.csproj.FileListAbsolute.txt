@@ -130,3 +130,9 @@ D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\System.Web.Http.Owin.xml
 D:\2016\VEDU\SOEDU\SOEDU\WebApiService\obj\Debug\SOEDU.API.csprojResolveAssemblyReference.cache
 D:\2016\VEDU\SOEDU\SOEDU\WebApiService\obj\Debug\WebApiService.dll
 D:\2016\VEDU\SOEDU\SOEDU\WebApiService\obj\Debug\WebApiService.pdb
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Entities.dll
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Service.dll
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Repository.dll
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Entities.pdb
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Service.pdb
+D:\2016\VEDU\SOEDU\SOEDU\WebApiService\bin\SOEDU.Repository.pdb

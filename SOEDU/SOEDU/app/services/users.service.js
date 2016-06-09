@@ -42,4 +42,4 @@ var app;
             .factory('app.services.BeerService', factory);
     })(services = app.services || (app.services = {}));
 })(app || (app = {}));
-//# sourceMappingURL=users.service.js.map
+//# sourceMappingURL=Users.service.js.map
