@@ -24,10 +24,10 @@ namespace SOEDU.Entities.Models
         public string IsLevel { get; set; }
         public Nullable<int> CountTarget { get; set; }
         public Nullable<int> CountStudent { get; set; }
-        public Nullable<int> IsStar1 { get; set; }
-        public Nullable<int> IsStar2 { get; set; }
-        public Nullable<int> IsStar3 { get; set; }
-        public Nullable<int> IsStar4 { get; set; }
         public Nullable<int> IsStar5 { get; set; }
+        public Nullable<int> IsStar4 { get; set; }
+        public Nullable<int> IsStar3 { get; set; }
+        public Nullable<int> IsStar2 { get; set; }
+        public Nullable<int> IsStar1 { get; set; }
     }
 }

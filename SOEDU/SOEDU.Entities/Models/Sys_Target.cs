@@ -14,7 +14,6 @@ namespace SOEDU.Entities.Models
     
     public partial class Sys_Target
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Sys_Target()
         {
             this.Sys_Target1 = new HashSet<Sys_Target>();
@@ -30,7 +29,6 @@ namespace SOEDU.Entities.Models
         public Nullable<int> IsOrder { get; set; }
     
         public virtual Sys_Course Sys_Course { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_Target> Sys_Target1 { get; set; }
         public virtual Sys_Target Sys_Target2 { get; set; }
         public virtual Sys_Users Sys_Users { get; set; }

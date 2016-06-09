@@ -14,7 +14,6 @@ namespace SOEDU.Entities.Models
     
     public partial class Sys_TestSectionAnswer
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Sys_TestSectionAnswer()
         {
             this.Sys_TestSectionQuestion = new HashSet<Sys_TestSectionQuestion>();
@@ -25,7 +24,6 @@ namespace SOEDU.Entities.Models
         public string Answer_Name { get; set; }
     
         public virtual Sys_TestSection Sys_TestSection { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sys_TestSectionQuestion> Sys_TestSectionQuestion { get; set; }
     }
 }

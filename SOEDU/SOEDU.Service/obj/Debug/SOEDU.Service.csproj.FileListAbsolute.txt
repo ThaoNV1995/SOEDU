@@ -31,3 +31,14 @@ D:\2016\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\EntityFramework.xml
 D:\2016\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.csprojResolveAssemblyReference.cache
 D:\2016\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.dll
 D:\2016\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.csprojResolveAssemblyReference.cache
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\obj\Debug\SOEDU.Service.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Service.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Service.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Entities.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Repository.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\EntityFramework.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Entities.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\SOEDU.Repository.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Service\bin\Debug\EntityFramework.xml
