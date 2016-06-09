@@ -440,8 +440,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.ts" />
-    <TypeScriptCompile Include="app\controllers\user.controller.ts" />
-    <TypeScriptCompile Include="app\services\users.service.ts" />
+    <TypeScriptCompile Include="app\controllers\Coursebyteacher.controller.ts" />
+    <TypeScriptCompile Include="app\controllers\User.controller.ts" />
+    <TypeScriptCompile Include="app\services\Coursebyteacher.service.ts" />
+    <TypeScriptCompile Include="app\services\Users.service.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
