@@ -45,6 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assess\AssessService.cs" />
+    <Compile Include="Assess\IAssessService.cs" />
+    <Compile Include="Attach\AttachService.cs" />
+    <Compile Include="Attach\IAttachService.cs" />
+    <Compile Include="CourseCategory\CourseCategoryService.cs" />
+    <Compile Include="CourseCategory\ICourseCategoryService.cs" />
+    <Compile Include="Course\CourseService.cs" />
+    <Compile Include="Course\ICourseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Teacher\ITeacherService.cs" />
     <Compile Include="Teacher\TeacherService.cs" />

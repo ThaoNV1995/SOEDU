@@ -172,6 +172,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\owl.carousel.css" />
     <Content Include="Content\css\Style.css" />
     <Content Include="Content\Img\20160326091646-56f5f10e5c782.png" />
     <Content Include="Content\Img\20160422100103-571993ef96aae.jpg" />
@@ -190,6 +191,7 @@
     <Content Include="Content\js\jquery-1.8.3.min.js" />
     <Content Include="Content\js\jquery.scrollUp.min.js" />
     <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\owl.carousel.min.js" />
     <Content Include="Content\Plugins\bootstrap-social-gh-pages\.gitignore" />
     <Content Include="Content\Plugins\bootstrap-social-gh-pages\assets\css\bootstrap.css" />
     <Content Include="Content\Plugins\bootstrap-social-gh-pages\assets\css\docs.css" />

@@ -91,7 +91,7 @@
         <div class="sto-content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
+                    <div class="col-lg-12">
                         @RenderPage("_MenuLeft.cshtml")
                         <div class="col-lg-6 col-md-6 col-sm-8 nopadding-xs nopadding-sm">
                             <!--Slider-->
@@ -132,6 +132,22 @@
                     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
                     zIndex: 2147483647 // Z-Index for the overlay
                 });
+            });
+            /* featured-products slider */
+            $("#featured-course .owl").owlCarousel({
+                autoPlay: false,
+                items: 4,
+                itemsDesktop: [1199, 4],
+                itemsDesktopSmall: [991, 3],
+                itemsTablet: [767, 2],
+                itemsMobile: [480, 1],
+                slideSpeed: 3000,
+                paginationSpeed: 3000,
+                rewindSpeed: 3000,
+                navigation: true,
+                stopOnHover: true,
+                pagination: false,
+                scrollPerPage: true,
             });
         });
     </script>

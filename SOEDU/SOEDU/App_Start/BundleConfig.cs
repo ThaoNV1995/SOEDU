@@ -31,7 +31,8 @@ namespace SOEDU
                         "~/Content/js/jquery-1.10.2.min.js",
                         "~/Content/Plugins/bootstrap/dist/js/bootstrap.min.js",
                         "~/Content/js/main.js",
-                        "~/Content/js/jquery.scrollUp.min.js"
+                        "~/Content/js/jquery.scrollUp.min.js",
+                        "~/Content/js/owl.carousel.min.js"
                         ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -39,7 +40,7 @@ namespace SOEDU
                 "~/Content/css/Style.css",
                 "~/Content/Plugins/font-awesome-4.5.0/css/font-awesome.min.css",
                 "~/Content/Plugins/bootstrap-social-gh-pages/bootstrap-social.css",
-                "~/Content/css/Style.css"
+                "~/Content/css/owl.carousel.css"
                 ));
         }
     }
