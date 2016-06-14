@@ -176,3 +176,5 @@ D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\bin\Debug\Microsoft.Owin.Security.O
 D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\obj\Debug\SOEDU.Tests.csprojResolveAssemblyReference.cache
 D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\obj\Debug\SOEDU.Tests.dll
 D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\obj\Debug\SOEDU.Tests.pdb
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\2016\Thang 6\VEDU\SOEDU\SOEDU\SOEDU.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

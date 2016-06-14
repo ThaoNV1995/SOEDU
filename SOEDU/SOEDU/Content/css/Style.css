@@ -446,6 +446,65 @@ a, a:hover, a:focus {
 /*End Mega Menu*/
 
 /*Silder*/
+.owl-container {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+    .owl-container .owl-carousel .owl-item {
+        /*padding-left: 15px;
+    padding-right: 15px;*/
+    }
+
+.owl-theme .owl-controls .owl-buttons {
+    text-align: center;
+    position: absolute;
+    top: -40px;
+    right: 15px;
+    background-color: #fff;
+    padding-left: 0px;
+}
+
+    .owl-theme .owl-controls .owl-buttons div {
+        font-size: 0;
+        z-index: 1;
+        font-family: FontAwesome;
+        display: block;
+        float: left;
+        color: #4c4c4c;
+        text-align: center;
+        width: 27px;
+        height: 27px;
+        border: 2px solid #d3d3d3;
+        border-radius: 100%;
+    }
+
+        .owl-theme .owl-controls .owl-buttons div:before {
+            display: block;
+            font-family: FontAwesome;
+            font-size: 18px;
+            line-height: 23px;
+        }
+
+        .owl-theme .owl-controls .owl-buttons div:hover {
+            color: #d8373e;
+            border-color: #d8373e;
+        }
+
+        .owl-theme .owl-controls .owl-buttons div.owl-prev {
+            margin-right: 3px;
+        }
+
+            .owl-theme .owl-controls .owl-buttons div.owl-prev:before {
+                content: "\f104";
+                margin-right: 5px;
+            }
+
+        .owl-theme .owl-controls .owl-buttons div.owl-next:before {
+            content: "\f105";
+            margin-left: 5px;
+        }
+
 .carousel-inner {
     height: 330px;
 }
@@ -453,12 +512,14 @@ a, a:hover, a:focus {
     .carousel-inner .item .img-responsive {
         height: 100%;
     }
-    .carousel-control.left{
-        background-image:none;
-    }
-    .carousel-control.right{
-        background-image:none;
-    }
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
 /*Hot news*/
 .portlet-hot-news {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -645,6 +706,10 @@ a, a:hover, a:focus {
         padding: 0 10px;
         margin-top: 10px;
     }
+
+        .list-course .polet-content .item-course .item-course-info .item-course-info-name:hover {
+            color: #d8373e;
+        }
 
 .item-course-info-rating {
     width: 100%;
@@ -1077,7 +1142,7 @@ a#scrollUp {
 
 .padding-right-10 {
     padding-right: 10px;
-}
+}s
 
 .nopadding-left {
     padding-left: 0;
@@ -1090,5 +1155,3 @@ a#scrollUp {
 .nopadding {
     padding: 0;
 }
-
-
