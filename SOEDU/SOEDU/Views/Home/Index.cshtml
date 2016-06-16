@@ -362,3 +362,20 @@
 
     </div>
 </div>
+
+<div ng-controller="app.course.CourseController as cs">
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Course_ID" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Course_Name" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Avatar" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Video" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Description" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.IsPrice" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.IsPriceSale" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.ViewCount" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.CreateDate" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.Status" />
+    <input type="text" class="form-control" placeholder="Name" ng-model="cs.newCourse.IsOrder" />
+    <button ng-click="cs.addCourse(cs.newCourse)" class="btn btn-primary">Add</button>
+    <button ng-click="cs.editCourse()" class="btn btn-primary">EDIT</button>
+</div>
+

@@ -7,7 +7,7 @@ var app;
             function CourseByTeacher() {
             }
             return CourseByTeacher;
-        }());
+        })();
         services.CourseByTeacher = CourseByTeacher;
         var CourseByTeacherService = (function () {
             function CourseByTeacherService($http) {
@@ -21,7 +21,7 @@ var app;
             };
             CourseByTeacherService.$inject = ['$http'];
             return CourseByTeacherService;
-        }());
+        })();
         factory.$inject = ['$http'];
         function factory($http) {
             return new CourseByTeacherService($http);

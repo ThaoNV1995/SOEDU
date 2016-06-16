@@ -7,7 +7,6 @@ var app;
             function CourseByTeacherController($http, CourseByTeacherService) {
                 this.$http = $http;
                 this.CourseByTeacherService = CourseByTeacherService;
-                alert(12);
                 this.getListCourseByTeacher();
             }
             CourseByTeacherController.prototype.getListCourseByTeacher = function () {
@@ -19,7 +18,7 @@ var app;
             };
             CourseByTeacherController.$inject = ['$http', 'app.services.CourseByTeacherService'];
             return CourseByTeacherController;
-        }());
+        })();
         angular
             .module('app')
             .controller('app.teacher.CourseByTeacherController', CourseByTeacherController);

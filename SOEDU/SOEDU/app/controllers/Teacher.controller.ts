@@ -11,7 +11,6 @@ module app.CourseByTeacher {
         Course: CourseByTeacher[];
         static $inject = ['$http', 'app.services.CourseByTeacherService'];
         constructor(private $http: ng.IHttpService, public CourseByTeacherService: services.ICourseByTeacher) {
-            alert(12);
             this.getListCourseByTeacher();
            
         }

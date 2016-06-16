@@ -10,7 +10,7 @@ namespace SOEDU.Service.CourseCategory
 {
     public class CourseCategoryService : ICourseCategoryService
     {
-        CourseCategoryRepository courseCategoryRepository = new CourseCategoryRepository();
+        SOEDU.Repository.CourseCategory.CourseCategory courseCategoryRepository = new Repository.CourseCategory.CourseCategory();
         public string addCourseCategory(Sys_CourseCategory coursecategory)
         {
             return courseCategoryRepository.addCourseCategory(coursecategory);

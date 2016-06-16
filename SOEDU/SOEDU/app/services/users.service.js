@@ -9,7 +9,7 @@ var app;
             function Beer() {
             }
             return Beer;
-        }());
+        })();
         services.Beer = Beer;
         var BeerService = (function () {
             function BeerService($http) {
@@ -32,7 +32,7 @@ var app;
             };
             BeerService.$inject = ['$http'];
             return BeerService;
-        }());
+        })();
         factory.$inject = ['$http'];
         function factory($http) {
             return new BeerService($http);
